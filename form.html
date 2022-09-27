@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ejercicio7</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="navbar-toggler navbar-collapse navbar-expand-md">
+        <nav class="navbar-toggler navbar-collapse navbar-expand-md">
+            <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"><h1>La cocina de Juan</h1></span>
+            <div>    
+            <div class="collapse navbar-expand-md" id="collapsibleNavbar">
+                <ul class="navbar-nav">    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/info.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Sucursal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/form.html">Registrese</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Nuestros Clientes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <form>        
+        <fieldset>
+            <legend>Nuevo usuario</legend>
+            <label for="name">Nombre</label>
+            <input name="name" type="text" placeholder="Juan" maxlength="15" size="25"><br>
+            <label for="name">Apellido</label>
+            <input name="lastname" type="text" placeholder="Lopez" maxlength="15" size="25"><br>
+            <label for="mail">Correo electronico</label>
+            <input name="mail" type="email" placeholder="" maxlength="15" size="25"> 
+            <br><br>
+            <label for="contraseña">Contraseña:</label>
+            <input name="contraseña" id="contraseña" type="password" maxlength="8" size="25">
+            <br><br>
+            <b>Preferencias:</b><br><br>
+            <label for="">Pastas</label>
+            <input type="radio" name="" id=""><br>
+            <label for="">Pizza</label>
+            <input type="radio" name="" id=""><br>
+            <label for="">Carne</label>
+            <input type="radio" name="" id=""><br>
+            <label for="">Pollo</label>
+            <input type="radio" name="" id=""><br>   
+            <label for="">Empanadas</label>
+            <input type="radio" name="" id=""><br><br>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date">
+            <br><br>       
+            <b>Sexo:</b>
+            <select name="Sexo" id="">
+                <option value="">Femenino</option>
+                <option value="">Masculino</option>                
+            </select>
+            <br><br>
+            <b>Deje su comentario:</b><br>    
+            <textarea rows="10" cols="50"></textarea>
+            <br><br>
+            <input type="submit" name="Enviar">
+            <input type="reset" name="Borrar"> 
+        </fieldset> 
+    </form>
+
+    <footer>
+        <p>La cocina de Juan©. All rights reserved.
+    </footer>
+</body>
+</html>
